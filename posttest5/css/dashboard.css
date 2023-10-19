@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #421E18;
+    overflow: hidden;
+    background: #E1D4C2;
+}
+
+.logo{
+    padding: 25px;
+}
+
+.main{
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.main li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.main li:hover{
+    background: #f1ddc2;
+}
+
+.main a{
+    color: #6F86A2;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content{
+    position: relative;
+    background: #AA9EB6;
+    width: 100%;
+    padding: 1rem;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #E1D4C2;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.header{
+    color:#421E18;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background: #eaeaea;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 4px 12px;
+}
+
+.search input{
+    background: transparent;
+    padding: 10px;
+}
+
+.search i{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search i:hover{
+    transform: scale(1.2);
+}
+
+.add-btn {
+    background-color: #457dcc;
+    padding: 8px;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    color:#E1D4C2;
+}
+
+.add-btn:hover {
+    transform: scale(1.1);
+}
+
+table {
+    width: 100%;
+    border: 2px solid #ababab;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table thead {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+table th, td {
+  padding: 8px;
+  border: 2px solid #ababab;
+}
